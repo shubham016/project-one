@@ -1,91 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Company Website</title>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-
-<body>
-    <!-- Navbar -->
-    <header>
-        <nav class="navbar">
-            <div class="logo">Company Logo</div>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><button class="login-btn">Login</button></li>
-                <li><button class="signup-btn">SignUp</button></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Welcome to myCompany</h1>
-            <p>Your section for modern, reliable web products.</p>
-            <button class="cta-button">Get Started</button>
-        </div>
-    </section>
-
-    <!-- Features Section -->
-    <section class="features">
-        <h2>Our Features</h2>
-        <div class="features-grid">
-            <div class="features-card">
-                <img src="https://img.icons8.com/ios-filled/50/4e9af1/light-on--v1.png" alt="Feature 1" />
-                <h3>Innovative Solutons</h3>
-                <p>We provide creative and modern web solutions tailored to your business.</p>
-            </div>
-            <div class="features-card">
-                <img src="https://img.icons8.com/ios-filled/50/4e9af1/settings--v1.png" alt="Feature 2" />
-                <h3>Easy Customization</h3>
-                <p>Our platform allows you to easily customize your site to fit your needs.</p>
-            </div>
-            <div class="features-card">
-                <img src="https://img.icons8.com/ios-filled/50/4e9af1/clock--v1.png" alt="Feature 3" />
-                <h3>24/7 Support</h3>
-                <p>Need help? Our team is available round the clock for assistance.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- To-Do List Section -->
-    <section class="todo">
-        <h2>Task Manager</h2>
-        <div class="todo-container">
-            <input type="text" id="taskInput" placeholder="Add a new task...">
-            <button onclick="addTask()">Add Task</button>
-            <ul id="taskList"></ul>
-        </div>
-    </section>
-
-    <!-- Contact Us Section -->
-    <section class="contact">
-        <h2>Contact Us</h2>
-        <form action="https://formspree.io/f/mpwpedal" method="POST" class="contact-form">
-            <input type="text" name="name" placeholder="Your Name" required />
-            <input type="email" name="email" placeholder="Your Email" required />
-            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-            <input type="hidden" name="_redirect" value="https://yourwebsite.com/thank-you.html" />
-            <input type="text" name="_honey" style="display:none" />
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-content">
-            <p>&copy; 2025 Your Company Name. All rights reserved.</p>
-            <p>Contact: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project One</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
